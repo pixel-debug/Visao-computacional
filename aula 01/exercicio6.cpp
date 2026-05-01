@@ -38,7 +38,7 @@ static Mat quantizarCinza(const Mat &imagemCinza, int niveis)
 
 int main()
 {
-  Mat imagemCinza = imread("imagem.jpg", IMREAD_GRAYSCALE);
+  Mat imagemCinza = imread("../images/imagem.jpg", IMREAD_GRAYSCALE);
   if (imagemCinza.empty())
   {
     cout << "Erro ao carregar a imagem em tons de cinza!" << endl;

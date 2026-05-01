@@ -45,7 +45,7 @@ static Mat reduzirResolucaoIntensidade(const Mat &imgCinza, int niveis)
 
 int main()
 {
-  Mat imagem = imread("imagem.jpg", IMREAD_GRAYSCALE);
+  Mat imagem = imread("../images/imagem.jpg", IMREAD_GRAYSCALE);
 
   if (imagem.empty())
   {

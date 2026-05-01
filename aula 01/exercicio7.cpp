@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-  Mat imagem = imread("imagem.jpg");
+  Mat imagem = imread("../images/imagem.jpg");
 
   if (imagem.empty())
   {

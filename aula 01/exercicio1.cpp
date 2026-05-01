@@ -6,7 +6,7 @@ using namespace cv;
 
 int main()
 {
-  Mat imagem = imread("imagem.jpg");
+  Mat imagem = imread("../images/imagem.jpg");
   if (imagem.empty())
   {
     cout << "Erro ao carregar a imagem!" << endl;

@@ -5,7 +5,7 @@ using namespace cv;
 
 int main()
 {
-  Mat imagem = imread("imagem.jpg");
+  Mat imagem = imread("../images/imagem.jpg");
   Mat imagemCinza;
   if (imagem.empty())
   {
